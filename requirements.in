@@ -1,0 +1,5 @@
+pandas          # 数据处理库
+numpy           # 数值计算库
+matplotlib      # 基础绘图库
+seaborn         # 高级绘图库
+scikit-learn    # 机器学习库
