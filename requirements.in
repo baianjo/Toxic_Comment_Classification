@@ -1,5 +1,14 @@
+# pip-tools依赖配置文件，不是Python代码
+# 使用 pip-compile requirements.in 生成 requirements.txt
+# -*- coding: utf-8 -*-
+# pyright: reportMissingImports=false
+# pyright: reportUndefinedVariable=false  
+# ruff: noqa
+# type: ignore
+
 pandas          # 数据处理库
 numpy           # 数值计算库
 matplotlib      # 基础绘图库
 seaborn         # 高级绘图库
 scikit-learn    # 机器学习库
+tensorflow      # 深度学习库
